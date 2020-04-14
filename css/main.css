@@ -1,0 +1,135 @@
+/*****BASESTYLES*****/
+
+body {
+  color: #ffffff;
+  font-family: 'roboto', sans-serif, 'roboto bold', 'roboto slab bold';
+}
+ 
+header {
+    height: 800px;
+}
+
+#work {
+    height: 1450px;
+}
+
+#about {
+   height: 650px;
+}
+
+#contact {
+    height: 400px;
+}
+
+
+
+/*****CONTAINER*****/
+
+.container {
+    width: 1400px;
+    box-shadow: 20px 20px 20px 20px #b7b7b7;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    background-image: url(../img/hero-image.png);
+    height: 800px;
+    background-size: cover;
+}
+
+.header-section h1 {
+    text-align: center;
+    font-family: 'roboto slab bold', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    color: #bdbf09;   
+    clear: both;
+    padding: 350px 20px 20px 20px;
+    
+}
+.header-section p {
+    font-size: 48px;
+    font-family: 'roboto regular', sans-serif;
+    color: #087e8b;
+    text-align: center;
+    clear: both;
+    line-height: 60px;
+   }
+
+/*****WORK*****/
+
+#work .full-width {
+    width: 1200px;
+    height: 1450px;
+    padding: 50px 100px 50px 100px;
+    margin: 0, auto;
+    background-color:#ffffff;
+}
+
+#work .full-width h2 {
+    font-size: 36px;
+    font-family: 'roboto slab bold', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color: #095156;
+    
+}
+
+#rp-img #jp-img #recipe-img {
+   float: left;
+   padding-right: 50px;
+   width: 550px;
+   
+}
+
+ .half-width h3 {
+    font-family: 'roboto bold', sans-serif;
+    font-size: 24px;
+    color: #087e8b;
+    float: right;
+
+}
+
+.half-width p {
+    font-family: 'roboto regular', sans-serif;
+    font-size: 24px;
+    color: #087e8b;
+    float: left;
+}
+
+
+/*****ABOUT*****/
+ #about {
+     background-color: #087e8b;
+ }
+
+ #about .full-width {
+     width: 1200px;
+ }
+
+ #about .full-width h4 {
+     font-family: 'roboto slab bold', sans-serif;
+     font-size: 36px;
+     text-align: center;
+     color: #ffffff;
+ }
+
+ #about .half-width {
+     padding-right: 50px;
+     padding-left: 100px;
+
+ }
+
+
+/*****CONTACT*****/
