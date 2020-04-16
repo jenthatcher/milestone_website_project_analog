@@ -118,18 +118,47 @@ header {
      width: 1200px;
  }
 
- #about .full-width h4 {
+ #about .half-width {
+     width: 600px;
+ }
+
+ #about h4 {
      font-family: 'roboto slab bold', sans-serif;
      font-size: 36px;
      text-align: center;
      color: #ffffff;
+     padding: 50px 0px 20px 100px;
+     
  }
 
- #about .half-width {
+ #about img {
      padding-right: 50px;
      padding-left: 100px;
+     width: 550px;
+}
 
- }
 
-
+ #about h5 {
+    font-family: 'roboto bold', sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 0px 10px 10px 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    text-align: justify;
+    width: 550px;
+}
+#about p {
+    font-family: 'roboto regular', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    width: 550px;
+    margin: 10px 10px 0px 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    line-height: 30px;
+    text-align: justify;
+}
+ 
 /*****CONTACT*****/
