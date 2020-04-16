@@ -116,6 +116,7 @@ header {
 
  #about .full-width {
      width: 1200px;
+     height: 650px;
  }
 
  #about .half-width {
@@ -162,3 +163,66 @@ header {
 }
  
 /*****CONTACT*****/
+ 
+#contact {
+    background-color: #095156
+    }
+#contact .full-width {
+    height: 400px;
+    width: 1200px;
+}
+#contact h6 {
+font-size: 36px;
+font-family: 'roboto slab bold', sans-serif;
+text-align: center;
+padding-top: 50px;
+}
+
+.third-width  {
+    width: 400px;
+    text-align: center;
+
+}
+.third-width h7 {
+    font-family: 'roboto bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'roboto regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.third-width a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-width ul {
+    list-style: none;
+    display: inline;
+    text-align: center;
+
+}
+
+.third-width ul li a {
+    float: left;
+    background-color: #095156;
+    padding: 30px 10px 10px 50px;
+    margin: 0 auto;
+
+}
+
+/*****FOOTER*****/
+
+#footer p {
+    font-family: 'roboto regular', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #095156;
+    
+}
