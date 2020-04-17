@@ -1,7 +1,6 @@
 /*****BASESTYLES*****/
 
 body {
-  color: #ffffff;
   font-family: 'roboto', sans-serif, 'roboto bold', 'roboto slab bold';
 }
  
@@ -15,10 +14,12 @@ header {
 
 #about {
    height: 650px;
+   color: white;
 }
 
 #contact {
     height: 400px;
+    color: white;
 }
 
 
@@ -28,6 +29,7 @@ header {
 .container {
     width: 1400px;
     box-shadow: 20px 20px 20px 20px #b7b7b7;
+    margin-top: 0px;
 }
 
 .half-width {
@@ -46,38 +48,66 @@ header {
     background-image: url(../img/hero-image.png);
     height: 800px;
     background-size: cover;
+    margin: 0px;
 }
 
-.header-section h1 {
+nav {
+    float: right;
+    padding: 25px 250px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #bdbf09;
+    list-style-type: none;
+    font-size: 18px;
+    font-style: 'roboto slab bold', sans-serif;
+    padding-right: 30px;
+    
+}
+
+nav ul li a:hover {
+        color: #095156;
+        border-radius: 5px;
+    }
+
+.intro h1 {
     text-align: center;
     font-family: 'roboto slab bold', sans-serif;
     font-size: 60px;
-    margin: 0;
-    color: #bdbf09;   
-    clear: both;
-    padding: 350px 20px 20px 20px;
-    
+    color: #bdbf09; 
+    padding: 350px 200px 20px 200px;    
 }
-.header-section p {
+
+ .intro p {
     font-size: 48px;
     font-family: 'roboto regular', sans-serif;
     color: #087e8b;
     text-align: center;
-    clear: both;
-    line-height: 60px;
+    padding: 0px 100px;
+
    }
 
+ 
 /*****WORK*****/
+#work {
+    background-color: #ffffff;
+    padding-top: 0px;
+    
+}
 
 #work .full-width {
     width: 1200px;
-    height: 1450px;
-    padding: 50px 100px 50px 100px;
-    margin: 0, auto;
-    background-color:#ffffff;
+    height: 1450px;  
+  
 }
 
-#work .full-width h2 {
+#work h2 {
     font-size: 36px;
     font-family: 'roboto slab bold', sans-serif;
     text-align: center;
@@ -86,32 +116,31 @@ header {
     
 }
 
-#rp-img #jp-img #recipe-img {
-   float: left;
-   padding-right: 50px;
-   width: 550px;
-   
-}
+#work .half-width {
+        margin-left: 100px;
+        width: 600px;
+        background-color: white;
+        }
 
- .half-width h3 {
+
+
+.half-width h3 {
     font-family: 'roboto bold', sans-serif;
     font-size: 24px;
     color: #087e8b;
-    float: right;
-
 }
 
-.half-width p {
+#work p {
     font-family: 'roboto regular', sans-serif;
     font-size: 24px;
     color: #087e8b;
-    float: left;
-}
+  }
 
 
 /*****ABOUT*****/
  #about {
      background-color: #087e8b;
+     margin: 0 auto;
  }
 
  #about .full-width {
@@ -165,17 +194,20 @@ header {
 /*****CONTACT*****/
  
 #contact {
-    background-color: #095156
+    background-color: #095156;
+    margin: 0 auto;
     }
 #contact .full-width {
     height: 400px;
     width: 1200px;
+    margin: 0 auto;
 }
 #contact h6 {
 font-size: 36px;
 font-family: 'roboto slab bold', sans-serif;
 text-align: center;
 padding-top: 50px;
+margin: 0px 1px 0px 1px;
 }
 
 .third-width  {
@@ -183,10 +215,10 @@ padding-top: 50px;
     text-align: center;
 
 }
-.third-width h7 {
-    font-family: 'roboto bold', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
+.third-width h6 {
+    font-family: 'roboto regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 
@@ -205,6 +237,7 @@ p {
     list-style: none;
     display: inline;
     text-align: center;
+    padding: 5px 0px 0px 0px;
 
 }
 
@@ -212,17 +245,18 @@ p {
     float: left;
     background-color: #095156;
     padding: 30px 10px 10px 50px;
-    margin: 0 auto;
+   
 
 }
 
 /*****FOOTER*****/
 
-#footer p {
+footer p {
     font-family: 'roboto regular', sans-serif;
     font-size: 18px;
     text-align: center;
     color: #ffffff;
     background-color: #095156;
+    margin: 0 auto;
     
 }
