@@ -2,10 +2,12 @@
 
 body {
   font-family: 'roboto', sans-serif, 'roboto bold', 'roboto slab bold';
+  margin: 0 auto;
 }
  
 header {
     height: 800px;
+    margin: 0 auto;
 }
 
 #work {
@@ -13,13 +15,13 @@ header {
 }
 
 #about {
-   height: 650px;
-   color: white;
+    color: white;
+    height: 650px;
 }
 
 #contact {
-    height: 400px;
     color: white;
+    height: 400px;
 }
 
 
@@ -27,28 +29,28 @@ header {
 /*****CONTAINER*****/
 
 .container {
-    width: 1400px;
     box-shadow: 20px 20px 20px 20px #b7b7b7;
     margin-top: 0px;
+    width: 1400px;
 }
 
 .half-width {
-    width: 600px;
     float: left;
+    width: 600px;
 }
 
 .third-width {
-    width: 400px;
     float: left;
+    width: 400px;
 }
 
 /*****HEADER*****/
 
 header {
     background-image: url(../img/hero-image.png);
-    height: 800px;
     background-size: cover;
-    margin: 0px;
+    height: 800px;
+    margin: 0 auto;
 }
 
 nav {
@@ -62,94 +64,87 @@ nav ul li{
 }
 
 nav ul li a {
-    text-decoration: none;
     color: #bdbf09;
-    list-style-type: none;
+
     font-size: 18px;
     font-style: 'roboto slab bold', sans-serif;
+    list-style-type: none;
     padding-right: 30px;
-    
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-        color: #095156;
-        border-radius: 5px;
-    }
+    border-radius: 5px;
+    color: #095156;
+}
 
 .intro h1 {
-    text-align: center;
+    color: #bdbf09; 
     font-family: 'roboto slab bold', sans-serif;
     font-size: 60px;
-    color: #bdbf09; 
-    padding: 350px 200px 20px 200px;    
+    padding: 350px 200px 20px 200px;   
+    text-align: center; 
 }
 
  .intro p {
-    font-size: 48px;
-    font-family: 'roboto regular', sans-serif;
     color: #087e8b;
-    text-align: center;
+    font-family: 'roboto regular', sans-serif;
+    font-size: 48px;
     padding: 0px 100px;
-
-   }
+    text-align: center;
+}
 
  
 /*****WORK*****/
 #work {
     background-color: #ffffff;
     padding-top: 0px;
-    
 }
 
 #work .full-width {
-    width: 1200px;
-    height: 1450px;  
     clear: both;
-  
-}
+    height: 1450px;  
+    width: 1200px;
+    }
 
 #work h2 {
+    color: #095156;
     font-size: 36px;
     font-family: 'roboto slab bold', sans-serif;
-    text-align: center;
     padding: 30px 0 30px 0;
-    color: #095156;
-    
+    text-align: center;    
 }
 
 #work .half-width {
-        width: 600px;
         background-color: white;
         height: 400px;
         padding-bottom: 40px;
+        width: 600px;
         }
 
 #work .half-width img {
-    width: 500px;
     padding: 50px 50px 50px 100px;
+    width: 500px;
 }
 
 
 #work .half-width h3 {
-    font-family: 'roboto bold', sans-serif;
-    font-size: 24px;
     color: #087e8b;
     float: left;
+    font-family: 'roboto bold', sans-serif;
+    font-size: 24px;
     margin-bottom: -15px;
-    
     padding: 22px 50px 0px 50px;
     width: 500px;
 }
 
 #work p {
-    font-family: 'roboto regular', sans-serif;
-    font-size: 20px;
     color: #087e8b;
-    float: left;
-    
-    
-    width: 500px;
+    float: left;font-family: 'roboto regular', sans-serif;
+    font-size: 20px;
     padding: 0px 50px 50px 50px;
+    width: 500px;
+    
   }
 
 
@@ -160,8 +155,8 @@ nav ul li a:hover {
  }
 
  #about .full-width {
-     width: 1200px;
-     height: 650px;
+    height: 650px; 
+    width: 1200px;
  }
 
  #about .half-width {
@@ -169,25 +164,26 @@ nav ul li a:hover {
  }
 
  #about h4 {
-     font-family: 'roboto slab bold', sans-serif;
-     font-size: 36px;
-     text-align: center;
-     color: #ffffff;
-     padding: 50px 0px 20px 100px;
+    color: #ffffff; 
+    font-family: 'roboto slab bold', sans-serif;
+    font-size: 36px;
+    padding: 50px 0px 20px 100px;
+    text-align: center;
+     
      
  }
 
  #about img {
-     padding-right: 50px;
-     padding-left: 100px;
-     width: 550px;
+    padding-left: 100px; 
+    padding-right: 50px;
+    width: 550px;
 }
 
 
  #about h5 {
+    float: left;
     font-family: 'roboto bold', sans-serif;
     font-size: 24px;
-    float: left;
     margin: 0px 10px 10px 50px;
     padding-left: 50px;
     padding-right: 100px;
@@ -195,16 +191,16 @@ nav ul li a:hover {
     width: 550px;
 }
 #about p {
-    font-family: 'roboto regular', sans-serif;
-    font-size: 20px;
     color: #ffffff;
     float: left;
-    width: 550px;
+    font-family: 'roboto regular', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
     margin: 10px 10px 0px 50px;
     padding-left: 50px;
     padding-right: 100px;
-    line-height: 30px;
     text-align: justify;
+    width: 550px;
 }
  
 /*****CONTACT*****/
@@ -213,24 +209,26 @@ nav ul li a:hover {
     background-color: #095156;
     margin: 0 auto;
     }
+
 #contact .full-width {
     height: 400px;
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
+
 #contact h6 {
-font-size: 36px;
 font-family: 'roboto slab bold', sans-serif;
-text-align: center;
-padding-top: 50px;
+font-size: 36px;
 margin: 0px 1px 0px 1px;
+padding-top: 50px;
+text-align: center;
 }
 
 .third-width  {
-    width: 400px;
     text-align: center;
-
+    width: 400px;
 }
+
 .third-width h6 {
     font-family: 'roboto regular', sans-serif;
     font-size: 22px;
@@ -250,29 +248,25 @@ p {
 }
 
 .third-width ul {
-    list-style: none;
     display: inline;
-    text-align: center;
+    list-style: none;
     padding: 5px 0px 0px 0px;
-
+    text-align: center;
 }
 
 .third-width ul li a {
-    float: left;
     background-color: #095156;
+    float: left;
     padding: 30px 10px 10px 50px;
-   
-
-}
+   }
 
 /*****FOOTER*****/
 
-footer p {
+.footer p {
+    background-color: #095156;
+    color: #ffffff;
     font-family: 'roboto regular', sans-serif;
     font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #095156;
     margin: 0 auto;
-    
+    text-align: center;    
 }
