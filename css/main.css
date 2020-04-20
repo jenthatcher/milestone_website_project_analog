@@ -104,6 +104,7 @@ nav ul li a:hover {
 #work .full-width {
     width: 1200px;
     height: 1450px;  
+    clear: both;
   
 }
 
@@ -111,29 +112,44 @@ nav ul li a:hover {
     font-size: 36px;
     font-family: 'roboto slab bold', sans-serif;
     text-align: center;
-    padding: 30px;
+    padding: 30px 0 30px 0;
     color: #095156;
     
 }
 
 #work .half-width {
-        margin-left: 100px;
         width: 600px;
         background-color: white;
+        height: 400px;
+        padding-bottom: 40px;
         }
 
+#work .half-width img {
+    width: 500px;
+    padding: 50px 50px 50px 100px;
+}
 
 
-.half-width h3 {
+#work .half-width h3 {
     font-family: 'roboto bold', sans-serif;
     font-size: 24px;
     color: #087e8b;
+    float: left;
+    margin-bottom: -15px;
+    
+    padding: 22px 50px 0px 50px;
+    width: 500px;
 }
 
 #work p {
     font-family: 'roboto regular', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #087e8b;
+    float: left;
+    
+    
+    width: 500px;
+    padding: 0px 50px 50px 50px;
   }
 
 
