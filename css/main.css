@@ -82,6 +82,7 @@ nav ul li a:hover {
     color: #bdbf09; 
     font-family: 'roboto slab bold', sans-serif;
     font-size: 60px;
+    margin: 0;
     padding: 350px 200px 20px 200px;   
     text-align: center; 
 }
@@ -140,7 +141,8 @@ nav ul li a:hover {
 
 #work p {
     color: #087e8b;
-    float: left;font-family: 'roboto regular', sans-serif;
+    float: left;
+    font-family: 'roboto regular', sans-serif;
     font-size: 20px;
     padding: 0px 50px 50px 50px;
     width: 500px;
