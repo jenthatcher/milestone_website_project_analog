@@ -249,6 +249,11 @@ p {
     text-decoration: none;
 }
 
+.third-width a:hover {
+    border-radius: 5px;
+    color: #bdbf09;
+}
+
 .third-width ul {
     display: inline;
     list-style: none;
